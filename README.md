@@ -1,4 +1,5 @@
 ## tiny-slider-react
+forked from [jechav/tiny-slider-react](https://github.com/jechav/tiny-slider-react)
 
 Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 
@@ -12,10 +13,10 @@ Original plugin [tiny-slider](https://github.com/ganlanyuan/tiny-slider)
 | onClick            |  callback to return slide clicked (slideClicked, info, event)        |
 | startIndex         |  index of carousel initiation                                        |
 | onIndexChanged     |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |
-| onTransitionStart  |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) | 
-| onTransitionEnd    |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) | 
-| onTouchStart       |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) | 
-| onTouchMove        |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) | 
+| onTransitionStart  |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |
+| onTransitionEnd    |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |
+| onTouchStart       |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |
+| onTouchMove        |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |
 | onTouchEnd         |  [event bind](https://github.com/ganlanyuan/tiny-slider#custom-events) |d
 
 ```js
@@ -55,7 +56,7 @@ const settings = {
 
 Get the slider from refs:
 
-```js 
+```js
 <TinySlider settings={settings} ref={ts => this.ts = ts}>...</TinySlider>
 ```
 
@@ -67,6 +68,6 @@ Add onClick for your buttons:
 
 Add the handler on your component:
 
-```js 
+```js
 onGoTo = dir => this.ts.slider.goTo(dir)
 ```
