@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/cpsoinos/tiny-slider-react#readme",
   "dependencies": {
-    "tiny-slider": "2.9.1"
+    "tiny-slider": "2.9.2"
   },
   "jest": {
     "setupFilesAfterEnv": [
